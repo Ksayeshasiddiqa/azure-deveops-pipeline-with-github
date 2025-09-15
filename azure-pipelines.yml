@@ -1,0 +1,8 @@
+trigger:
+- main
+
+pool:
+  name: agent_ayesha   # Your self-hosted agent
+
+steps:
+- script: echo "Hello from GitHub to Azure DevOps!"
